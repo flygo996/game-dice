@@ -24,7 +24,7 @@ module.exports = {
       // 将你的 library 暴露为所有的模块定义下都可运行的方式
       libraryTarget: 'umd',
       // 按需加载相关，设置为 webpackJsonp_xxx 即可
-      jsonpFunction: `webpackJsonp_dice`,
+      jsonpFunction: 'webpackJsonp_dice',
     },
   },
 }
